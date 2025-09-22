@@ -1,0 +1,10 @@
+class Solution {
+public:
+    void isAdult(int age) {
+        if (age >= 18) {
+            std::cout << "Adult";
+        } else {
+            std::cout << "Teen";
+        }
+    }
+};
